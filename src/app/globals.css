@@ -4,7 +4,20 @@
   margin: 0;
 }
 
+.row {
+  padding: 1em;
+  border: 1px solid red;
+  background-color: #d33d3d30;
+}
 
-h1 {
-  color: red;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.imgCont {
+  width:100%;
+   object-fit:cover;
 }
